@@ -1,6 +1,7 @@
 body{
 	width: 1000px;
 	margin: auto;
+	background-color: #CCC;
 }
 header
 {
@@ -22,8 +23,8 @@ color: white;
 
 #izquierda{
 	background: black;
-	height: 500px;
 	display: inline-block;
+	height: 50px;
 	width: 700px;
 }
 
@@ -42,7 +43,6 @@ color: white;
 	background: rgba(115, 111, 160, 0.14);
 	height: 250px;
 	display: block;
-	margin: auto
 	
 }
 #tweets{
@@ -50,10 +50,10 @@ color: white;
 	background: rgba(128, 0, 128, 0.14);;
 	height: 250px;
 	display: block;
-	margin: auto
 }
 
 footer{
 	color: white;
 	background-color: orange;
 }
+
