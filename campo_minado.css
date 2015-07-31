@@ -1,0 +1,60 @@
+body{
+	width: 1000px;
+	margin: auto;
+}
+header
+{
+	background: #343B54;
+	background-image: url("background-header.png");
+	color: white;
+	height: 100px;
+	overflow: hidden;
+	padding: 0.5em;
+	position: relative;
+}
+
+nav {
+background: #343B54;
+height: 30px;
+color: white;
+
+}
+
+#izquierda{
+	background: black;
+	height: 500px;
+	display: inline-block;
+	width: 700px;
+}
+
+#derecha{
+	background: grey;
+	height: 500px;
+	display: inline-block;
+	width: 300px;	
+	position: absolute;
+}
+
+
+
+#panel{
+	color: white;
+	background: rgba(115, 111, 160, 0.14);
+	height: 250px;
+	display: block;
+	margin: auto
+	
+}
+#tweets{
+	color: white;
+	background: rgba(128, 0, 128, 0.14);;
+	height: 250px;
+	display: block;
+	margin: auto
+}
+
+footer{
+	color: white;
+	background-color: orange;
+	height: 100px;
+}
