@@ -5,6 +5,32 @@
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="normalize.css" />
 	<link rel="stylesheet" href="campo_minado.css" />
+	<script src="jquery-1.11.3.min.js"></script>
+	
+<!-- 
+	<script type="text/javascript">
+
+	$(function(){
+
+		var game = $("#body_game");
+
+		for(var i = 0; i < 208; i++){
+			var div =  $("<div class='caja' id='div"+i+"' />");
+
+			 div.click(function(evt){  
+			 	console.log(evt.target);
+			 	$(evt.target).css("background-color","red");   
+			 });
+		
+			 game.append(div);
+		}
+
+
+	});
+
+	</script>
+-->
+	<script src="campo_minado.js"></script>
 </head>
 <body>
 	<header>
@@ -14,200 +40,7 @@
 	<section id="izquierda">
 		<center>
 			<div id="body_game">
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<!-- -->
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
-				<div   class="caja"></div>	
+
 			</div>	
 		</center>
 		
